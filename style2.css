@@ -1,0 +1,136 @@
+body{
+    background-color: yellow
+}
+h2{
+    text-align: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    flex-direction: column;
+ 
+}
+.child1{
+    height:100px;
+    width: 100px;
+   background-color: green;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function:linear;
+    
+    
+}
+ 
+:hover.child1{
+   width: 300px;
+}
+
+
+
+
+.child2{
+    margin: 10px;
+    height:100px;
+    width: 100px;
+   
+   background-color: green;
+  
+
+  
+}
+:hover.child2{
+    animation-name: mani;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    
+}
+@keyframes mani {
+   50%{
+      width: 300px;
+      height: 150px;
+   }
+   100%{
+    width: 300px;
+    height: 300px;
+   }
+    
+}
+
+.child3{
+    margin: 10px;
+    height:100px;
+    width: 100px;
+   background-color: green;
+   transition: all;
+   transition-duration: 1s;
+   transition-timing-function:linear;
+}
+:hover.child3{
+    width: 300px;
+ }
+.child4{
+    margin: 10px;
+    height:100px;
+    width: 100px;
+   background-color: green;
+   transition: all;
+   transition-duration: 1s;
+   transition-timing-function:ease;
+     
+}
+:hover.child4{
+    width: 300px;
+ }
+.child5{
+    margin: 10px;
+    height:100px;
+    width: 100px;
+   background-color: green;
+   transition: all;
+   transition-duration: 1s;
+   transition-timing-function:ease-in;
+     
+}
+:hover.child5{
+    width: 300px;
+ }
+
+.child6{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+   background-color: green;
+   transition: all;
+   transition-duration: 1s;
+   transition-timing-function:ease-out;
+     
+}
+:hover.child6{
+    width: 300px;
+ }
+
+
+.child7{
+    margin: 10px;
+    height:100px;
+    width: 100px;
+   background-color: green;
+   transition: all;
+   transition-duration: 1s;
+   transition-timing-function:ease-in-out;
+     
+}
+:hover.child7{
+    width: 300px;
+ }
+ .file1{
+    text-align: center;
+    font-size: 30px;
+ }
+ .file3{
+    text-align: center;
+    font-size: 30px;
+ }

@@ -1,0 +1,171 @@
+body{
+    background-color: yellow
+
+}
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.container{
+    margin-top:30px ;
+            display: flex;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+}
+.box{
+    background-color:cadetblue;
+  
+    height: 100px;
+    width: 100px;
+    margin:10px;
+    animation-name: line1;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+@keyframes line1 {
+    0%{
+        transform: skew(45deg,0);
+
+    }
+  
+   100%{
+        transform: skew(-45deg,0);
+
+    }
+    
+}
+.parant{
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+ .child{
+    background-color:plum;
+   
+    height: 100px;
+    width: 100px;
+    margin:10px;
+    animation-name: line2;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+@keyframes line2 {
+    0%{
+        transform:skew(0,45deg);
+
+    }
+   100%{
+        transform:skew(0,-45deg);
+
+    }
+}
+
+.container2{
+            margin-top: 30px;
+            display: flex;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+}
+.box2{
+    background-color:cadetblue;
+  
+    height: 100px;
+    width: 100px;
+    margin:10px;
+    animation-name: line3;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+@keyframes line3 {
+  
+   100%{
+        transform:rotate(360deg);
+
+    }
+}
+.container3{
+    margin-top:50px ;
+            display: flex;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+}
+.child1{
+    background-color:cadetblue;
+  
+    height: 100px;
+    width: 100px;
+    margin:10px;
+    animation-name: first;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+@keyframes first{
+    100%{
+        transform:scale(2,0);
+    }
+
+    
+}
+
+.child2{
+    background-color:brown;
+  
+    height: 100px;
+    width: 100px;
+    margin:10px;
+    animation-name: midileone;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+@keyframes midileone{
+    100%{
+        transform:scale(0,1);
+    }
+
+    
+}
+.child3{
+    background-color:green;
+  
+    height: 100px;
+    width: 100px;
+    margin:10px;
+    animation-name:third;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+@keyframes third{
+    100%{
+        transform:rotate(360deg);
+    }
+
+    
+}
+
+.file2{
+    text-align: center;
+    font-size: 25px;
+    position: absolute;
+    left: 370px;
+}
